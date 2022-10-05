@@ -1,0 +1,86 @@
+body{
+    margin: 120px 10%;
+}
+
+
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.container-fluid{
+    padding-left: 10%;
+}
+.fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+.container table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #767575;
+}
+td{
+    border: 1px solid #DCDCDC;
+}
+.top-border{
+    border-top: 2px solid #767575;
+}
+.right-border{
+    border-right: 2px solid #767575;
+}
+
+input{
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-style:none ;
+    font-size: 22px;
+    color: #696969;
+}
+input:focus{
+    outline: #DCDCDC;
+    background-color: rgb(230, 223, 223);
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+.button input{
+    width: 100%;
+}
+
+#progress-border{
+    width: 100%;
+    background-color: #DCDCDC;
+    height: 5px;
+    margin: 10px auto;
+    display: none;
+}
+#progress-bar{
+    background-color: #696969;
+    height: 5px;
+    width: 0;
+    display: none;
+}
+
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;;
+  }
+  
+p {
+    padding-bottom: 10px;
+  }
+  
+p a{
+    color: black;
+    text-decoration: underline;
+  }
