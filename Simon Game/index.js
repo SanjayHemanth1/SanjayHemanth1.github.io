@@ -5,7 +5,7 @@ var map1 = { 0:"green", 1:"red", 2:"yellow", 3:"blue" };
 var map2 = { "green":0, "red":1, "yellow":2, "blue":3 };
 
 $(document).on("keydown",function(){
-    startGame();
+    if(level==0) startGame();
 });
 
 $(".btn").on("click",function(){
@@ -29,7 +29,7 @@ function startGame(){
         setTimeout(function(){
             $("#"+map1[num]).removeClass("pressed");
         },500);
-    },1000);
+    },1000*(level==0?0:1));
 }
 
 function check(){
